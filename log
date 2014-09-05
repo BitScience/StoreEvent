@@ -1,0 +1,2 @@
+tail -f /var/log/xas2/nazzatest/NazzaEventToRide.log
+

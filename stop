@@ -1,0 +1,1 @@
+ps x | grep NazzaEventToRide.Nazza | awk '{print $1}' | xargs kill -15
