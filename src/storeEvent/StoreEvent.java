@@ -18,7 +18,7 @@ public class StoreEvent {
 
 	private static Logger log = Logger.getLogger(StoreEvent.class);
 	private static Connection conn;
-	private final static String app_ver = "StoreEvent v 1.20";
+	private final static String app_ver = "StoreEvent v 1.30";
 
 	public static void main(String[] args) {
 		

@@ -99,6 +99,8 @@ public class StoreProcessor extends Processor {
 					
 					if (hmUnits.get(ev.SourceAddress) == null) {
 						log.log(Level.DEBUG, "Error reading unit. The ID " + ev.SourceAddress + " does not exist.");
+						stop = true;
+						break;
 					}
 					else {
 

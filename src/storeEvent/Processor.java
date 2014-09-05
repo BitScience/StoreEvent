@@ -9,7 +9,7 @@ import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 
 public abstract class Processor extends Thread{
-	private boolean stop;
+	protected boolean stop;
 	private int max_runtime;
 	protected Connection conn;
 	protected int count;
